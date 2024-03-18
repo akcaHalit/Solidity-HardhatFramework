@@ -16,7 +16,7 @@ We are going to use **Visual Studio Code**. If you haven't installed, use [here]
 1. We create a folder in VSCode.
 2. We are going to use this commands:
 
-**Starting the Node Project**
+##Starting the Node Project
 ```
     npm init --yes
 ```
