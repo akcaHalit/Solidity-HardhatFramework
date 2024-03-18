@@ -24,7 +24,8 @@ We are going to use **Visual Studio Code**. If you haven't installed, use [here]
 ```
     npm install --save-dev hardhat
 ```
-## Selecting the Structure of the Working Environment by Running Hardhat (we want to learn, so: 'Create an empty hardhat.config.js')
+## Selecting the Structure of the Working Environment by Running Hardhat 
+(we want to learn, so: **'Create an empty hardhat.config.js'**)
 ```
     npx hardhat
 ```
