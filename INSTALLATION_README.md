@@ -20,27 +20,27 @@ We are going to use **Visual Studio Code**. If you haven't installed, use [here]
 ```
     npm init --yes
 ```
-**Installation of Hardhat**
+## Installation of Hardhat
 ```
     npm install --save-dev hardhat
 ```
-**Selecting the Structure of the Working Environment by Running Hardhat (we want to learn, so: 'Create an empty hardhat.config.js')**
+## Selecting the Structure of the Working Environment by Running Hardhat (we want to learn, so: 'Create an empty hardhat.config.js')
 ```
     npx hardhat
 ```
 
-**Creating our folders by using terminal.**
+## Creating our folders by using terminal.
 ```
     mkdir contracts test scripts
 ```
 
-**Installation of Required Plugins (Ethers.js, Waffle)**
+## Installation of Required Plugins (Ethers.js, Waffle)
 ```
     npm install --save-dev @nomiclabs/hardhat-ethers ethers @nomiclabs/hardhat-waffle ethereum-waffle chai
 ```
 ---
 
-**Configuring the file that: `hardhat.config.js`**
+## Configuring the file that: `hardhat.config.js`**
 ```
     //require("@nomiclabs/hardhat-ethers");
     require("@nomiclabs/hardhat-waffle");
