@@ -1,4 +1,4 @@
-//require("@nomiclabs/hardhat-ethers");
+//require("@nomiclabs/hardhat-ethers"); //waffle includes ethers so we don't need to import ethers.
 require("@nomiclabs/hardhat-waffle");
 
 const PRIVATE_KEY = "PRIVATE_KEY";
