@@ -1,8 +1,9 @@
 #  Solidity-Hardhat-Framework 
 
-Firstly, USE THE **[INSTALLATION_README.md](https://github.com/akcaHalit/Solidity-HardhatFramework/blob/main/INSTALLATION_README.md)** to install Hardhat and prepare the project to develop.
+Firstly, USE THE **[INSTALLATION_README.md](./INSTALLATION_README.md)** to install Hardhat and prepare the project to develop.
 
-[INSTALLATION_README.md](./INSTALLATION_README.md)
+<!-- Firstly, USE THE **[INSTALLATION_README.md](https://github.com/akcaHalit/Solidity-HardhatFramework/blob/main/INSTALLATION_README.md)** to install Hardhat and prepare the project to develop.-->
+
 
 ## Preparing the `hardhat.config.js`
 ```
