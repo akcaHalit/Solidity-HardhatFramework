@@ -31,6 +31,10 @@ Firstly, USE THE **[INSTALLATION_README.md](./INSTALLATION_README.md)** to insta
 ```
     npm install @openzeppelin/contracts
 ```
+
+There is a progression of codes in the History respectively.
+Lock-1.sol and Token-1.sol are written.
+
 ## How to compile:
 ```
     npx hardhat compile
