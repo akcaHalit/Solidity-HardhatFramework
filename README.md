@@ -31,4 +31,11 @@ Firstly, USE THE **[INSTALLATION_README.md](./INSTALLATION_README.md)** to insta
 ```
     npm install @openzeppelin/contracts
 ```
+## How to compile:
+```
+    npx hardhat compile
+```
+
+
+
     
