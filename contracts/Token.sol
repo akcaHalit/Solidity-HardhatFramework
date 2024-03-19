@@ -8,7 +8,8 @@ import "@openzeppelin/contracts/token/ERC20/ERC20.sol";
 contract BEEToken is ERC20 {
         constructor() ERC20("BEE Token", "BEE") {
             // We will create a supply by calling the mint function of the Token. (TR: Token'in mint fonksiyonunu çağırarak bir arz oluşturucaz.)
-            _mint(msg.sender, 1773000*10**decimals()); //Solidity'de kesirli sayı yok Tokenlerin ve Etherlerin yanında 18 adet olur.
-            
+            _mint(msg.sender, 1773000*10**decimals()); //Solidity'de kesirli sayı yok Tokenlerin ve Etherlerin yanında 18 adet olur.  
         }
+
+        
 }
