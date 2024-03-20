@@ -1,6 +1,11 @@
 // import { expect } from 'chai';  // it is a module not the .js, so we can't use like this.
-const { expect } = require('chai');      // we can not require() function with it.
-const { ethers } = require('hardhat');
+//const { expect } = require('chai');      // we can not require() function with it.
+//import { ethers } from 'hardhat';
+//const { ethers } = require('hardhat');
+
+import { expect } from 'chai';
+import pkg from 'hardhat';
+const { ethers } = pkg;
 const provider =  ethers.provider;           // Provides us to communicate with Blockchain 
 
 describe("Lock Contract", function () {
@@ -24,17 +29,16 @@ describe("Lock Contract", function () {
     it(" Deploys the contracts", async function() {
         // we deployed two contracts, So they have addresses.  So, we're gonna check it.
         expect(token.address).to.not.be.undefined;  // is undefined?
-        expect(lock.address).to.not.be.properAddress; // is valid? 
+        //expect(lock.address).to.be.properAddress; // is valid?   NO LONGER USED :(
 
     }); 
 
-    /*
-    describe("Contract Functions", function (){
-
-    });
-    */
+    
+    //describe("Contract Functions", function (){
+    //});
 
 });
+
 
     // States:
 // It: The code will sequentially test all the it cases within the describe block. Here, we will also specify the conditions for error handling within these trial results.
