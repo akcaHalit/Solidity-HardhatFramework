@@ -1,4 +1,4 @@
-#  Solidity-Hardhat-Framework 
+#  Solidity-Hardhat-Framework  
 
 Firstly, USE THE **[INSTALLATION_README.md](./INSTALLATION_README.md)** to install Hardhat and prepare the project to develop.
 
